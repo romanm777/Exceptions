@@ -3,3 +3,6 @@ ipch
 *.db
 *.filters
 *.vcxproj
+.suo
+.vs
+x64
