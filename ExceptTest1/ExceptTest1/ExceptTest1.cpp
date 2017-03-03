@@ -21,6 +21,8 @@ int main()
 	/** */
 	exception_test::bad_typeid_test( );
 
+	/** */
+	exception_test::double_exception_test( );
 
     return 0;
 }

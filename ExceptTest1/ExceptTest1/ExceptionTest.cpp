@@ -87,4 +87,16 @@ namespace exception_test
 			std::cout << "bad_typeid_test( ). Bad alloc exception has catched. Message: " <<  tid.what( ) << std::endl;
 		}
 	}
+
+	void double_exception_test( ) 
+	{
+		try
+		{
+			throw 5.5;
+		}
+		catch ( double d )
+		{
+			std::cout << "double_exception_test( ). A double exception has catched. Number: " << d << std::endl;
+		}
+	}
 }

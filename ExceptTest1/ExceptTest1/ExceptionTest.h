@@ -25,4 +25,7 @@ namespace exception_test
 
 	/** */
 	void bad_typeid_test( );
+
+	/** */
+	void double_exception_test( );
 }
